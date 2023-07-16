@@ -1,0 +1,274 @@
+main {
+    min-width: 307px;
+    padding: 30px 40px;
+}
+
+.schedule {
+    position: relative;
+    gap: 30px;
+    margin-bottom: 53px;
+}
+
+.schedule::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #E8EDF1;
+
+    position: absolute;
+    left: 0;
+    bottom: -33px;
+}
+
+.schedule h4 {
+    color: #232360;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+    margin-right: 60px;
+    white-space: nowrap;
+}
+
+.schedule .call p:nth-child(1) {
+    color: #1EA7FF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+
+}
+
+.schedule .call p:nth-child(2) {
+    color: #232360;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.schedule .invite-btn {
+    color: #1EA7FF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.call-btn {
+    border-radius: 10px;
+    background: #5051F9;
+    box-shadow: 0px 8px 20px 0px rgba(80, 81, 249, 0.24);
+    padding: 22px;
+}
+
+.call-imgs span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.call-letter {
+    color: #1EA7FF;
+    text-align: center;
+    vertical-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.call-imgs span:not(:first-child) {
+    margin-left: -8px;
+}
+
+.call-time {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.messages {
+    margin-bottom: 30px;
+}
+
+.messages h4 {
+    color: #232360;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.messages-stack {
+    gap: 20px;
+}
+
+.mess-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 30px;
+}
+
+.mess-img span {
+    width: 56px;
+    height: 56px;
+    border: 3px white solid;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.img1 {
+    border: 1px solid #F1B032;
+}
+
+.img2 {
+    border: 1px solid #EDA0A8;
+}
+
+.img3 {
+    border: 1px solid #79C4DB;
+}
+
+.img4 {
+    border: 1px solid #AA98CA;
+}
+
+.mess-text {
+    margin-left: 14px;
+}
+
+.mess-name {
+    color: #232360;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mess-brief {
+    color: #768396;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.task {
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #E8EDF1;
+}
+
+.task h4 {
+    color: #232360;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.task h5 {
+    color: #768396;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 19px 0;
+}
+
+.task input {
+    height: 40px;
+    border-radius: 7px;
+    background: #E8EDF1;
+    width: 100%;
+    border: none;
+
+    padding: 12px;
+    margin-bottom: 16px;
+
+    color: #232360;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.task input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.collab h6 {
+    color: #768396;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.collaborator {
+    padding: 6px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.collab-img {
+    width: 22px;
+    height: 22px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.collab-name {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.c1 {
+    color: #5051F9;
+    background-color: #E8E8FF;
+}
+
+.c2 {
+    color: #1EA7FF;
+    background-color: #E5F5FF;
+}
+
+.plus-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #E8EDF1;
+}
+
+.plus-icon span {
+    color: #232360 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

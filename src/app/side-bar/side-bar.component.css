@@ -1,0 +1,18 @@
+main {
+    width: 92px !important;
+    background: #FBFAFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 215px;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main li:not(:first-child) {
+    margin-bottom: 49px;
+}

@@ -1,0 +1,8 @@
+.content {
+    width: calc(100% - 92px);
+}
+
+.main-section {
+    min-width: 950px !important;
+    max-width: 950px !important;
+}

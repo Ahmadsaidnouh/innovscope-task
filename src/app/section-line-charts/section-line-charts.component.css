@@ -1,0 +1,46 @@
+.chart {
+    border-radius: 16px;
+    background: #FFF;
+    padding: 24px;
+    height: 390px;
+}
+
+.chart-header {
+    margin-right: 12px;
+}
+
+.chart-title {
+    color: #232360;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.chart span {
+    color: #232360;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 40px;
+}
+
+.chart .active {
+    margin-right: 0;
+    color: #1EA7FF;
+    position: relative;
+}
+
+.chart .active:after {
+    content: "";
+    margin-right: 0;
+    background-color: #1EA7FF;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -9px;
+    left: 0;
+    height: 2px !important;
+}
